@@ -1,6 +1,11 @@
 In this project we will create a pipeline to develop a conversational search AI using IBM watsonx, watsonx discovery and Watson Assistant (Watsonx Orchestrate).
 The initial guideline shows you how to create the index in the knowledge base and process and ingest the data.
 
+For this we will use
+watsonx.ai to call Llama 3.2 vision model to parse images/diagrams in PDF
+watsonx discovery to create the index in the knowledge base
+watsonx orchestrate (watson assistant) to create the chat interface
+
 Sequence of workflow:
 
 1. config-e5_embedding.ipynb (only once to download the model and create the pipeline and index)
