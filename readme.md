@@ -2,9 +2,12 @@ In this project we will create a pipeline to develop a conversational search AI 
 The initial guideline shows you how to create the index in the knowledge base and process and ingest the data.
 
 For this we will use
-watsonx.ai to call Llama 3.2 vision model to parse images/diagrams in PDF
-watsonx discovery to create the index in the knowledge base
-watsonx orchestrate (watson assistant) to create the chat interface
+
+1. watsonx.ai to call Llama 3.2 vision model to parse images/diagrams in PDF
+   
+2. watsonx discovery to create the index in the knowledge base
+   
+3. watsonx orchestrate (watson assistant) to create the chat interface
 
 Sequence of workflow:
 
