@@ -7,7 +7,7 @@ Sequence of workflow:
 
 2. PDF_text_image_parser_v4.py.py (this may need to install some specific dependency for the first time such as brew install poppler, pip install docling)
 
-docling works on python version >=3.10
+docling works on python version >=3.11
 docling can extract text from protected/encyrpted pdf. It is an OS text extraction package from IBM.
 (make sure you use docling_env virtual/conda env which needs python>=3.10. 
 conda activate docling_env
