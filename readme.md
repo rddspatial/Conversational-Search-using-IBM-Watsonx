@@ -32,3 +32,5 @@ To handle this, we can modify the code to skip pdfminer processing and go direct
 3. TXT_text_extraction-e5_v3.py
 4. ingest-e5_embedding.ipynb
 5. query-e5.ipynb
+
+6. This shows how to set up watson assistant and integrate with watsonx discovery - https://github.com/watson-developer-cloud/assistant-toolkit/blob/master/integrations/extensions/docs/elasticsearch-install-and-setup/how_to_configure_advanced_elasticsearch_settings.md#hybrid-search-with-combined-keyword-search-and-dense-vector-search
